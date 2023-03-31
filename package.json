@@ -1,0 +1,35 @@
+{
+  "name": "noutuz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
+    "@mui/styled-engine": "^5.11.9",
+    "axios": "^1.3.3",
+    "bootstrap": "^5.2.3",
+    "material-ui-modal": "^1.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-read-more-read-less": "^1.0.7",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.8.1",
+    "react-use-cart": "^1.13.0",
+    "sass": "^1.58.3",
+    "use-cart": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  }
+}

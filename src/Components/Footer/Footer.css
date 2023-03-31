@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  height: max-content;
+  padding: 60px 0;
+  background: #f8f8f8;
+  margin-top: 70px;
+}
+
+.footer-ota {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+}
+
+.parent1 {
+  height: 70px;
+  display: flex;
+  align-content: center;
+  gap: 30px;
+}
+
+.parent1 img {
+  display: flex;
+  width: 70px;
+}
+
+.parent1 h6 {
+  color: dodgerblue;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+.icon1 {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  gap: 20px;
+}
+
+.index {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.index img {
+  width: 30%;
+}
+
+
+
+footer ul li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 1216px) {
+  .footer-ota{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-ota{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .parent1 h6 {
+    color: dodgerblue;
+    display: none;
+  }
+  .icon1 {
+    margin-top: 20px;
+    display: flex;
+    width: 25%;
+    height: 25px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .footer-ota{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .icon1 {
+    margin-top: 20px;
+    display: flex;
+    width: 20%;
+    height: 20px;
+    gap: 20px;
+  }
+  .footer-bola1 {
+    text-align: center;
+  }
+  .icon1 {
+    display: flex;
+    margin-left: 90px;
+  }
+  .parent1  {
+    justify-content: center;
+  }
+  .footer-bola2 {
+    text-align: center;
+  }
+  .footer-bola3 {
+    text-align: center;
+  }
+  .footer-bola4 {
+    text-align: center;
+  }
+  .met {
+    font-size: 10px;
+  }
+}

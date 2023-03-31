@@ -1,0 +1,38 @@
+.nnn{
+    display: flex;
+}
+.uls{
+    display: flex;
+    .dropdown{
+        padding-top: 11px;
+        margin-left: 40px;
+    }
+    .lii{
+        font-weight: 500;
+        padding-top: 18px;
+        margin-left: 60px;
+        list-style: none;
+    }
+}
+.zzz{
+    margin-left: 150px;
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+        .nomers{
+
+                a{
+                    text-decoration: none;
+                    font-weight: 00;
+                    color: black;
+                }
+        }
+}
+.Header__h1{
+    text-align: center;
+    margin: 30px;
+}
+.lenovo__tips img{
+    width: 100%;
+    height: max-content;
+}

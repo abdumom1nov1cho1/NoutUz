@@ -1,0 +1,16 @@
+.ota_2 {
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    .xprx {
+        width: 250px;
+        height: 200px;
+    }
+
+    .px {
+        font-size: 30px;
+        text-align: center;
+        color: #333e48;
+    }
+}

@@ -1,0 +1,55 @@
+.page__h1{
+    font-size: 50px;
+    color: red;
+}
+.Page__div img{
+    width: 60%;
+}
+.Page__div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.Page__btn{
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1200px){
+    .page__h1{
+        font-size: 30px;
+        color: red;
+    }
+    .Page__div{
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .Page__btn{
+        margin-top: 50px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .page__h1{
+        font-size: 30px;
+        color: red;
+    }
+    .Page__div{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .Page__btn{
+        margin-top: 50px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .Page__div img{
+        width: 100%;
+    }
+}

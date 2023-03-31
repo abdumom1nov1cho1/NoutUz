@@ -1,0 +1,61 @@
+nav {
+   
+  .Nav__tel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .Nav__left {
+      .Nav__left__h6 {
+        padding-top: 30px;
+        color: rgb(68, 68, 68);
+        font-weight: 200;
+      }
+    }
+    .Nav__right {
+      display: flex;
+      gap: 10px;
+     .Nav__right__tel{
+        padding-top: 15px;
+        .Nav__right__tel__a {
+            padding-top: 30px;
+            font-size: 15px;
+            text-decoration: none;
+            color: rgb(68, 68, 68);
+          }
+          .Nav__right__tel__h6{
+            font-size: 15px;
+            text-align: center;
+          }
+     }
+    }
+  }
+}
+@media only screen and (max-width: 1216px) {
+  nav{
+
+      .Nav__tel{
+          display: block;
+          justify-content: center;
+          .Nav__left{
+            width: 100%;
+              .Nav__left__h6{
+                text-align: center;
+                align-items: center;
+                width: 100%;
+              }
+          }
+          .Nav__right{
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+          }
+      }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+
+      display: none;
+  }
+}

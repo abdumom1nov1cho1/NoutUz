@@ -1,0 +1,33 @@
+.maped{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cardd{
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1400px){
+    .maped{
+        justify-content: center;
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width: 980px){
+    .maped{
+        justify-content: center;
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 700px){
+    .maped{
+        margin: auto;
+        justify-content: center;
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
